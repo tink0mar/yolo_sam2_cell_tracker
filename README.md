@@ -15,6 +15,8 @@ The pipeline outputs tracking masks in Cell Tracking Challenge (CTC) format, wit
 - **CUDA-capable GPU with ≥16GB VRAM** (required for SAM 2.1 Hiera-Large)
 - **PyTorch with CUDA support**
 - All dependencies listed in `requirements.txt`
+- Download `SAM 2` checkpoints with `./checkpoints/download_ckpts.sh`
+- YOLO11 best model is store on LFS server, can be found in `yolo_best_model/best.pt`
 
 ## Project Structure
 
